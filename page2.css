@@ -1,0 +1,100 @@
+/*http://assistantvillageidiot.blogspot.com/2018/01/kazimir-malevich.html*/
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body {
+	background-color: #e2dac1; 
+}
+
+#info {
+	position: absolute;
+	bottom: 25%;
+	right: 25%;
+	color:#27241e;
+	font-family: Poppins;
+	
+	z-index: 100;
+}
+
+#pop{
+	position: absolute;
+	bottom: 20%;
+	right: 20%;
+	color:#27241e;
+	font-family: Poppins;
+	
+	z-index: 102;
+}
+
+.grid-container {
+
+	height: 100vh;
+	display: grid;
+	/*grid-column-gap: 5%;*/
+	grid-template-columns: auto auto auto;
+	/*background-color: red;*/
+	/*padding: 10px;*/
+	grid-template-rows: 25% 25% 25% 25%; 
+}
+
+.grid-item {
+  /*background-color: rgba(255, 255, 255, 0.8);*/
+  /*border: 1px solid rgba(0, 0, 0, 0.8);*/
+  /*padding: 20px;*/
+  font-size: 30px;
+  /*text-align: center;*/
+  /*height: 33.3%; */
+}
+
+svg {
+	height: 100%;
+	width: 100%;
+	z-index: 10; 
+}
+
+svg {
+	transform: rotate(0deg);
+    transition: transform 999s 999s;
+}
+
+svg:hover {
+	transform: rotate(90deg);
+    transition: transform 0.5s;
+    /*transform: translate(50px, 20px);*/
+	/*animation-name: ninety_deg;
+    animation-duration: .8s;
+    animation-delay: 100s;*/ 
+    /*animation-fill-mode: forwards;*/
+	 /*transform: translate(50px, 20px);*/
+	}
+#five {
+	transform: translate(0px, 0px);
+    transition: transform 999s 999s;
+}
+
+#five:hover {
+	transform: translate(250px, 80px);
+	transition: transform 0.5s;
+}
+
+#seven {
+	transform: translate(0px, 0px);
+    transition: transform 999s 999s;
+}
+
+#seven:hover {
+	transform: translate(250px, -150px);
+	transition: transform 0.5s;
+}
+
+@keyframes ninety_deg {
+	0%{transform: rotate(0deg)}
+	100% {transform: rotate(90deg)}
+}
+/*
+#three {
+grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start:3;
+  grid-column-end:3;
+}
+*/

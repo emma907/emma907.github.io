@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+		/*background-color: #e4e4df #e2dac1#008ee9*/
+		background-image: url("texture.png");
+
+	}
+h1 {
+	color:yellow;
+}
+
+#container {
+	position: relative;
+	z-index: 3; 
+}
+canvas {
+		margin: 0;
+        height: 100vh;
+        z-index: 1; 
+        position: relative;
+	}
+ 
+#fade1 {
+	position: absolute;
+	bottom: 15%;
+    right: 15%;
+	width: 100%;
+	text-align: right;
+	z-index: 100;
+	font-family: Poppins; 
+	color: #c17704;
+	
+	
+}
+
+#fade2 {
+	position: absolute;
+	bottom: 10%;
+    right: 10%;
+	width: 100%;
+	text-align: right;
+	z-index: 100;
+	font-family: Poppins; 
+	color: #c17704;
+	
+	
+}
+ 
+
