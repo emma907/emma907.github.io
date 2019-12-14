@@ -1,0 +1,168 @@
+/* PRIVACY FINAL CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald|Wallpoet&display=swap');
+
+#button {
+	background-color:#EFBDC0;
+    border: none;
+    position: relative; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    font-weight: bold; 
+    font-family: 'Oswald', sans-serif
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+h1 {
+	
+	padding: 15px 32px;
+	font-family: 'Wallpoet', sans-serif; 
+
+}
+
+
+body, html{
+	height: 100%;
+}
+
+body{
+	font-family: 'Oswald', sans-serif; 
+}
+
+.title{
+	text-align: center;
+}
+
+#flatrate {
+	font-style: italic;
+}
+
+section {
+	/*text-align: right;*/
+	font-weight: bold;
+	font-size: 15pt;
+}
+
+
+
+.container {
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	padding:20px;
+
+}
+
+
+.productinfo {
+	padding: 20px;
+	
+	display:inline-block;
+
+
+}
+
+.clickable {
+	background-color: #EFBDC0;
+	color: #fff;
+}
+
+
+.product-img {
+	align-self: right; 
+	display:inline-block;
+	
+}
+
+.product1 {
+	display:block;
+	
+}
+
+.product2 {
+	display:block;
+	
+}
+
+label {
+	font-weight: bold; 
+}
+
+legend {
+	font-weight: bolder; 
+	font-size: 20pt; 
+	font-family: 'Wallpoet', sans-serif; 
+}
+
+footer {
+	display:block;
+	background-color: black;
+	text-align: center;
+	padding:5px;
+	color:white;
+	font-size: 10pt;
+}
+
+footer a {
+	color:white;
+}
+
+.newHeader {
+	background-color: #ECCBD2; 
+}
+
+#submit, #reset {
+	background-color:black;
+    border: none;
+    position: relative; 
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px; 
+    font-weight: bold; 
+    font-family: 'Oswald', sans-serif; 
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid black;
+	font-family: 'Oswald', sans-serif; 
+}
+
+textarea {
+	border:none;
+	font-family: 'Oswald', sans-serif;
+	/*font-size:30px; */
+	padding: 0px;
+	margin: 0px;
+	/*align-content: center;*/
+}
+
+fieldset {
+	border: none;
+}
+
+select {
+	color: white;
+	background-color: black; 
+	padding: 8px 16px;
+	border: 1px solid transparent;
+	border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+	cursor: pointer;
+	user-select: none;
+	font-family: 'Oswald', sans-serif;
+
+}
+
