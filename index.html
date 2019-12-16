@@ -1,0 +1,225 @@
+<!-- PRIVACY FINAL HTML-->
+
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+
+		<meta charset = "utf-8" />
+
+		<title>Shopping Cart</title>
+
+		<link rel = "stylesheet" href ="css/surveillance.css" />
+	</head>
+
+	<body id = 'body' onload="getLocation()">
+		<div id = 'bigreveal'>
+
+		<div class ='title' >
+
+      	<h1 id  ="title">SHOP</h1>
+      	
+
+		</div>
+
+		<div class = "container" id = "container">
+
+      <form>
+        
+        <p>
+        <fieldset>
+          <legend>YOUR CART</legend>
+          <br>
+
+          <!--ITEM 1-->
+
+          <div class = 'product2'>
+          <img class = 'product-img' src="brunton.png" height='200' width = '200'>
+          <div class = 'productinfo'>
+	          <label for = "item1">Obfuscation: A User's Guide</label> <br>
+	          <br>
+	          Price: <input type=number id=price1 value=35 readonly>
+	          <br><br>
+	          Quantity: <input class = 'validate' type="number" name="quant1" id = "quant1">
+	          <br><br>
+	          Subtotal: <textarea id= 'subtotal1' name = 'subtotal1' rows='1' cols='20'></textarea>
+
+          </div>
+      	</div>
+
+      	<br>
+
+      	<!--ITEM 2-->
+
+          <div class = 'product2'>
+    	<img class = 'product-img' src="noble.png" height='200' width = '200'>
+          <div class = 'productinfo'>
+	          <label for = "item2">Algorithms of Oppression</label> <br>
+	          <br>
+	          Price: <input type=number id=price2 value=60 readonly>
+	          <br><br>
+	          Quantity: <input type="number" class = 'validate' name="quant2" id = "quant2">
+	          <br><br>
+	          Subtotal: <textarea id= 'subtotal2' name = 'subtotal2' rows='1' cols='20'></textarea>
+          </div>
+      	</div>
+
+      	<!--ITEM 3-->
+
+      	<div class = 'product3'>
+    	<img class = 'product-img' src="browne.png" height='200' width = '200'>
+          <div class = 'productinfo'>
+	          <label for = "item3">Dark Matters</label> <br>
+	          <br>
+	          Price: <input type=number id=price3 value=37 readonly>
+	          <br><br>
+	          Quantity: <input type="number" class = 'validate' name="quant3" id = "quant3">
+	          <br><br>
+	          Subtotal: <textarea id= 'subtotal3' name = 'subtotal3' rows='1' cols='20'></textarea>
+          </div>
+      	</div>
+
+      	
+      	<label for = "shipping" id ='shippingcat'>Shipping Information:</label> 
+          <select class = 'validate' id= 'shippingmethod' name = 'shipping'>
+			<option value="standard" selected>Standard ($4)</option>
+			<option value="oneDay">One Day ($8)</option>
+			<option value="pickup">Pick Up ($0)</option>>
+		</select>
+        
+
+      	<!--
+      	<p id ='flatrate'>*FLAT RATE SHIPPING: $5.75*</p>
+      -->
+      	<br> 
+      	<br>
+      	<section>
+      		Grand Total: <textarea id='grandtotal' name ='grandtotal' rows='1' cols='20' ></textarea>
+      	</section>
+
+      	
+          
+        </fieldset>
+
+        <p>
+
+        <fieldset class = "shipping_cat">
+          <legend>SHIPPING INFORMATION</legend>
+          <p>
+          <label for = "fname">First Name</label>
+          <input type = "text" class = 'validate' name = "fname" id = "fname">
+          <label for = "lname">Last Name</label>
+          <input type = "text" class = 'validate' name = "lname" id = "lname">
+          <p>
+          <label for = "email" class = required>Email</label>
+          <input type ="email" class = 'validate' name="email" id = "email">
+          <p>
+          Phone: <input type="number" class = 'validate' name="cell" id='cell'>
+          <p>
+          Street Address: <input type = text class = 'validate' name = 'street' id = 'street'>
+        
+          City: <input type = text class = 'validate' name = 'city' id = 'city'>
+          <br><br>
+          <label for = "state"  >State</label>
+          
+          <select class = 'validate' name = 'state'>
+			<option value="Alabama">Alabama</option>
+			<option value="Arizona">Arizona</option>
+			<option value="Arkansas">Arkansas</option>
+			<option value="California">California</option>
+			<option value="Colorado">Colorado</option>
+			<option value="Connecticut">Connecticut</option>
+			<option value="Delaware">Delaware</option>
+			<option value="District Of Columbia">District Of Columbia</option>
+			<option value="Florida">Florida</option>
+			<option value="Georgia">Georgia</option>
+			<option value="Hawaii">Hawaii</option>
+			<option value="Idaho">Idaho</option>
+			<option value="Illinois">Illinois</option>
+			<option value="Indiana">Indiana</option>
+			<option value="Iowa">Iowa</option>
+			<option value="Kansas">Kansas</option>
+			<option value="Kentucky">Kentucky</option>
+			<option value="Louisiana">Louisiana</option>
+			<option value="Maine">Maine</option>
+			<option value="Maryland">Maryland</option>
+			<option value="Massachusetts">Massachusetts</option>
+			<option value="Minnesota">Minnesota</option>
+			<option value="Mississippi">Mississippi</option>
+			<option value="Missouri">Missouri</option>
+			<option value="Montana">Montana</option>
+			<option value="Nebraska">Nebraska</option>
+			<option value="Nevada">Nevada</option>
+			<option value="New Hampshire">New Hampshire</option>
+			<option value="New Jersey">New Jersey</option>
+			<option value="New Mexico">New Mexico</option>
+			<option value="New York">New York</option>
+			<option value="North Carolina">North Carolina</option>
+			<option value="North Dakota">North Dakota</option>
+			<option value="Ohio">Ohio</option>
+			<option value="Oklahoma">Oklahoma</option>
+			<option value="Oregon">Oregon</option>
+			<option value="Pennsylvania">Pennsylvania</option>
+			<option value="Rhode Island">Rhode Island</option>
+			<option value="South Carolina">South Carolina</option>
+			<option value="South Dakota">South Dakota</option>
+			<option value="Tennessee">Tennessee</option>
+			<option value="Texas">Texas</option>
+			<option value="Utah">Utah</option>
+			<option value="Vermont">Vermont</option>
+			<option value="Virginia">Virginia</option>
+			<option value="Washington">Washington</option>
+			<option value="West Virginia">West Virginia</option>
+			<option value="Wisconsin">Wisconsin</option>
+			<option value="Wyoming">Wyoming</option>
+		</select>
+
+
+		Zip Code: <input type = number class = 'validate' name = 'zip' id = 'zip'>
+
+		<br>
+		<br>
+		<h3 id = "promotion">CLAIM REWARDS ON YOUR BIRTHDAY:</h3>
+		<label for = "bday">Birthday</label>
+          <input type = "date" class = 'validate' name = "bday" id = "bday"><br><br>
+        
+        </fieldset>
+
+
+
+       <div id = "form-buttons">
+
+       <input type="submit" name="submit" id = "submit">
+       <input type="reset" name="reset" id ="reset">
+
+       </div>
+      </form>
+
+
+    </div>
+
+    
+
+	    <div class = "reveal" id = 'reveal'>
+	    	<p id = 'output'></p>
+
+	    </div>
+
+	    
+
+        <footer id = "footer">
+        	<p>Created by: Emma Patton	//	Contact Information: eap465@nyu.edu</p>
+        </footer>
+
+        <button id = 'optclick' onclick="movealong()">KEEP SHOPPING</button>
+
+        <script = type="text/javascript" src = "js/surveillance.js"></script>
+        <script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+		
+		 
+	</div> <!--big reveal-->
+	<h1 id = "move"></h1>
+	</body>
+</html>
