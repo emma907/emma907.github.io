@@ -1,4 +1,4 @@
-# CAPTURE:
+# *CAPTURE*
 ### emma907.github.io
 Final Project for Privacy and Media Class
 
